@@ -1,0 +1,204 @@
+body{
+    background-color: whitesmoke;
+}
+
+/* registrasi data karyawan */
+.container-login{
+    margin-left: 30%;
+    margin-top: 7%;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 40%;
+}
+
+
+.label-form{
+    margin-left: 10%;
+    margin-right: 30px;
+}
+/* registrasi data karyawan end */
+
+
+/* sidebar */
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar a{
+    text-decoration: none;
+}
+
+/* sidebar end */
+
+
+/* content main(akun) */
+.container-akun{
+    height: 30px;
+    background-color: white;
+    box-shadow: 1px 6px 19px 0px rgba(110,110,110,0.56);
+-webkit-box-shadow: 1px 6px 19px 0px rgba(110,110,110,0.56);
+-moz-box-shadow: 1px 6px 19px 0px rgba(110,110,110,0.56);
+}
+
+/* content main end(akun) */
+
+
+/* transaksikasir */
+.container-kasir{
+    margin-left: 200px; 
+    position: absolute; 
+    width: 85%;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+}
+
+.title-kasir{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+/* transaksikasir emd */
+
+/* customer */
+.container-customer{
+    margin-left: 200px; 
+    position: absolute; 
+    width: 85%;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+}
+
+.container-tabel-customer{
+    width: 100%;
+    height: 70%;
+    margin-top: 9%;
+    background-color: white;
+}
+
+.container-tabel-customer .btn{
+    margin-left: 20px;
+}
+
+.container-tabel-customer .table{
+    margin-left: 20px;
+    width: 97%;
+}
+
+/* customer end */
+
+/* supplier */
+.container-supplier{
+    margin-left: 200px; 
+    position: absolute; 
+    width: 85%;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+}
+
+.container-tabel-supplier{
+    width: 100%;
+    height: 70%;
+    margin-top: 9%;
+    background-color: white;
+}
+
+.container-tabel-supplier .btn{
+    margin-left: 20px;
+}
+
+.container-tabel-supplier .table{
+    margin-left: 20px;
+    width: 97%;
+}
+
+
+/* supplier end */
+
+/* stok barang */
+.container-stokBarang{
+    margin-left: 200px; 
+    position: absolute; 
+    width: 85%;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+}
+
+.container-tabel-stokBarang{
+    width: 100%;
+    height: 70%;
+    margin-top: 9%;
+    background-color: white;
+}
+
+.container-tabel-stokBarang .btn{
+    margin-left: 20px;
+}
+
+.container-tabel-stokBarang .table{
+    margin-left: 20px;
+    width: 97%;
+}
+
+/* stok barang end */
+
+
+/* transaksi kasir */
+
+    .kasir-customer{
+        background-color: white; 
+        width: 110%;
+        height: 190px; 
+        margin-top: 30px;
+        padding-top: 1px;
+        border-radius: 5px;
+    }
+
+    .barang-qty{
+        background-color: white;
+        width: 110%;
+        height: 190px; 
+        margin-top: -190px;
+        margin-left: 120%;
+        padding-top: 1px;
+        border-radius: 5px;
+    }
+
+    .total{
+        background-color: white;
+        width: 110%;
+        height: 190px; 
+        margin-top: -190px;
+        margin-left: 240%;
+        padding-top: 1px;
+        border-radius: 5px; 
+    }
+
+    .bayar{
+        background-color: white;
+        width: 120%;
+        height: 190px; 
+        margin-top: 20px;
+        padding-top: 1px;
+        border-radius: 5px;  
+    }
+
+    .tombol-proses-payment{
+        width: 110%;
+        height: 190px; 
+        margin-top: -140px;
+        margin-left: 130%;
+        padding-top: 1px;
+        border-radius: 5px;
+    }
+
+    .kembalian{
+        background-color: white;
+        width: 110%;
+        height: 190px; 
+        margin-top: -240px;
+        margin-left: 240%;
+        padding-top: 1px;
+        border-radius: 5px; 
+    }
+/* transaksi kasir end */
